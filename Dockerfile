@@ -6,7 +6,7 @@ USER root
 COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
-# Add the below just in case the preceding pip install changes the version of
+# Added the below just in case the preceding pip install changes the version of
 # anvil-app-server
 RUN anvil-app-server || true
 EXPOSE 3030
