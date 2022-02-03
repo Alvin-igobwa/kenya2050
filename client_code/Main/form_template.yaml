@@ -6,7 +6,8 @@ container:
   data_bindings: []
 components:
 - type: FlowPanel
-  properties: {}
+  properties: {role: null, spacing: medium, align: left, tooltip: '', border: '',
+    foreground: '', visible: true, spacing_above: small, spacing_below: small, background: ''}
   name: navbar_links
   layout_properties: {slot: nav-right, spacing_below: none}
 - type: Label
