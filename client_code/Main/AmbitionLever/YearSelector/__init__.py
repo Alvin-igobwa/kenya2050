@@ -1,3 +1,6 @@
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 from ....Model import init_vals
 from ._anvil_designer import YearSelectorTemplate
 

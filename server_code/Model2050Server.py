@@ -1,3 +1,6 @@
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 import json
 from math import atan, pi, sin, sqrt
 from pathlib import Path

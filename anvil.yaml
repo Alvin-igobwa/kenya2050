@@ -1,5 +1,8 @@
 dependencies: null
-services: []
+services:
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
 package_name: Template2050Calculator
 allow_embedding: false
 name: Template2050Calculator
@@ -7,5 +10,5 @@ runtime_options: {version: 2, client_version: '3', server_version: python3-sandb
 metadata: {}
 startup_form: Main
 native_deps: {head_html: ''}
-db_schema: []
+db_schema: {}
 renamed: true

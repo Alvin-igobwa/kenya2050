@@ -1,3 +1,6 @@
+import anvil.tables as tables
+import anvil.tables.query as q
+from anvil.tables import app_tables
 from anvil import Label, get_url_hash, set_url_hash
 
 from ..Model import init_vals, translate

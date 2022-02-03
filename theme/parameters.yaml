@@ -183,4 +183,4 @@ color_scheme:
   - {name: Gray 700, color: '#585858'}
   - {name: Gray 400, color: '#D8D8D8'}
   - {name: Gray 500, color: '#A4A4A4'}
-  - {name: '', color: '#000000'}
+  - {name: Primary Color 500, color: '#388E3C'}
