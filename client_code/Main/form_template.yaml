@@ -1,7 +1,8 @@
 is_package: true
 container:
   type: HtmlTemplate
-  properties: {html: '@theme:standard-page.html'}
+  properties: {tooltip: '', background: 'theme:Primary 700', foreground: 'theme:White',
+    border: '', visible: true, role: null, html: '@theme:standard-page.html'}
   data_bindings: []
 components:
 - type: FlowPanel
