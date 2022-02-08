@@ -219,3 +219,8 @@ class Main(MainTemplate):
         col2_label.remove_from_parent()
         self.settings_title_card.add_component(col1_label, x=xs[0], y=0)
         self.settings_title_card.add_component(col2_label, x=xs[1], y=0)
+
+    def reset_button_show(self, **event_args):
+      """This method is called when the Button is shown on the screen"""
+      pass
+
