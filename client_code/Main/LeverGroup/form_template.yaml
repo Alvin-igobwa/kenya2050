@@ -1,6 +1,8 @@
 container:
   type: ColumnPanel
-  properties: {col_widths: '{"FIPETE":5,"KRYHHW":55,"BJPINV":5,"WXUHPL":55}'}
+  properties: {role: null, tooltip: '', border: '', foreground: 'theme:White', visible: true,
+    wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"FIPETE":5,"KRYHHW":55,"BJPINV":5,"WXUHPL":55}',
+    spacing_below: small, background: 'theme:Primary 700'}
 components:
 - type: Button
   properties: {role: arrow-button, align: center, tooltip: '', border: '', enabled: true,
