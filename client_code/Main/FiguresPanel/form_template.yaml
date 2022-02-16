@@ -29,11 +29,10 @@ components:
     components:
     - type: ColumnPanel
       properties: {role: null, tooltip: '', border: '', foreground: '', visible: true,
-        wrap_on: mobile, col_spacing: small, spacing_above: small, col_widths: '{}',
+        wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{}',
         spacing_below: small, background: ''}
       name: figure_container
-      layout_properties: {grid_position: 'QNQZHX,JXOYRH', full_width_row: true, row_background: 'theme:Gray
-          100'}
+      layout_properties: {grid_position: 'QNQZHX,JXOYRH', full_width_row: true, row_background: 'theme:White'}
       components: []
   - type: ColumnPanel
     properties: {col_widths: '{}'}
