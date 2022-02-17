@@ -34,11 +34,11 @@ class Levers(LeversTemplate):
 
         for i, level_button in enumerate(self.levels, 1):
             if i < self._level:
-                level_button.background = "theme:Black"
-                level_button.foreground = "theme:Black"
+                level_button.background = "theme:Grey"
+                level_button.foreground = "theme:Grey"
             elif i == self._level:
-                level_button.background = "theme:Black"
-                level_button.foreground = "theme:White"
+                level_button.background = "theme:Grey"
+                level_button.foreground = "theme:Green"
                 level_button.text = f"{int(i):d}"
             elif i - 1 < self._level < i:
                 decimal = int(10 * (self._level - i + 1))
