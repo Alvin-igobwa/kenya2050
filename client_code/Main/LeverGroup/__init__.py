@@ -11,7 +11,7 @@ class LeverGroup(LeverGroupTemplate):
         # Set Form properties and Data Bindings.
         self.init_components(**properties)
 
-        levers = self.item["levers"]
+        levers = self.item["lever"]
         inputs = self.item["inputs"]
         start_years = self.item["start_years"]
         end_years = self.item["end_years"]
