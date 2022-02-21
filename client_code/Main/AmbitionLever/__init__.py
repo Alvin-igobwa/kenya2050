@@ -17,7 +17,7 @@ class AmbitionLever(AmbitionLeverTemplate):
         data for arguments of `complete_init`.
         """
 
-        self.complete_init(**self.item)
+        self.complete_init(*self.item)
 
     def complete_init(
         self,
