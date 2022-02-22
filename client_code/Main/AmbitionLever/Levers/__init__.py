@@ -35,7 +35,7 @@ class Levers(LeversTemplate):
         for i, level_button in enumerate(self.levels, 1):
             if i < self._level:
                 level_button.background = "theme:Black"
-                level_button.foreground = "theme:Black"
+                level_button.foreground = "theme:White"
             elif i == self._level:
                 level_button.background = "theme:Black"
                 level_button.foreground = "theme:White"
@@ -46,7 +46,7 @@ class Levers(LeversTemplate):
                 level_button.text = f"{level:.1f}"
                 # change button text colour depending on shade of gray
                 if decimal <= 5:
-                    level_button.foreground = "theme:Black"
+                    level_button.foreground = "theme:Gray "
                 else:
                     level_button.foreground = "theme:White"
             else:
