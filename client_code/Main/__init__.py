@@ -36,7 +36,7 @@ class Main(MainTemplate):
             self.set_expert_mode(True)
         self.update_graphs()
 
-        self.title.text = translate("KCERT 2050 Carbon Calculator\n Ministry of Energy Kenya")
+        self.title.text = translate("KCERT 2050 Carbon Calculator\nMinistry of Energy Kenya")
 
     def select_figures(self):
         """Initialise the FiguresPanel and add it to the plot area of the app."""

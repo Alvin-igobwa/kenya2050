@@ -12,7 +12,7 @@ components:
   layout_properties: {slot: nav-right, spacing_below: none}
 - type: Label
   properties: {role: headline, align: left, tooltip: '', border: '', foreground: 'theme:Primary
-      700', visible: true, text: 'KCERT 2050', font_size: 25, font: Arial, spacing_above: large,
+      700', visible: true, text: 'KCERT 2050 Carbon Calculator\nMinistry of Energy Kenya', font_size: 20, font: Arial, spacing_above: large,
     icon_align: left, spacing_below: large, italic: false, background: '', bold: true,
     underline: false, icon: ''}
   name: title
