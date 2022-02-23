@@ -18,7 +18,7 @@ components:
   name: title
   layout_properties: {slot: title}
 - type: ColumnPanel
-  properties: {role: '2050', tooltip: '', border: '', foreground: 'theme:Black', visible: true,
+  properties: {role: '2050', tooltip: '', border: '', foreground: 'theme:White', visible: true,
     wrap_on: mobile, col_spacing: none, spacing_above: none, col_widths: '{"BITUCV":2,"PKRSVT":41}',
     spacing_below: small, background: 'theme:Gray 300'}
   name: main_area
