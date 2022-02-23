@@ -12,9 +12,9 @@ components:
   layout_properties: {slot: nav-right, spacing_below: none}
 - type: Label
   properties: {role: headline, align: left, tooltip: '', border: '', foreground: 'theme:Primary
-      700', visible: true, text: 'KCERT 2050 Carbon Calculator\nMinistry of Energy Kenya', font_size: 20, font: Arial, spacing_above: large,
-    icon_align: left, spacing_below: large, italic: false, background: '', bold: true,
-    underline: false, icon: ''}
+      700', visible: true, text: KCERT 2050 Carbon Calculator\nMinistry of Energy Kenya,
+    font_size: 20, font: Arial, spacing_above: large, icon_align: left, spacing_below: large,
+    italic: false, background: '', bold: true, underline: false, icon: ''}
   name: title
   layout_properties: {slot: title}
 - type: ColumnPanel
@@ -91,8 +91,8 @@ components:
         name: col2_label
         layout_properties: {x: 250, y: 0, width: 140}
     - type: RepeatingPanel
-      properties: {role: null, tooltip: '', border: '', foreground: '', items: null,
-        visible: true, spacing_above: small, spacing_below: small, item_template: Main.LeverGroup,
+      properties: {role: null, tooltip: '', border: '', foreground: 'theme:White',
+        items: null, visible: true, spacing_above: small, spacing_below: small, item_template: Main.LeverGroup,
         background: 'theme:Primary 700'}
       name: lever_group_panel
       layout_properties: {grid_position: 'IPNHGZ,SIGQFA', full_width_row: false}
