@@ -22,7 +22,7 @@ components:
   name: lever_spacer
   layout_properties: {grid_position: 'TUISJM,BJPINV'}
 - type: RepeatingPanel
-  properties: {role: null, tooltip: '', border: '', foreground: '', items: null, visible: true,
+  properties: {role: null, tooltip: '', border: '', foreground: 'theme:White', items: null, visible: true,
     spacing_above: small, spacing_below: small, item_template: Main.AmbitionLever,
     background: ''}
   event_bindings: {x-refresh: lever_clicked}
