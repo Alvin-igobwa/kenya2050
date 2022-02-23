@@ -18,7 +18,7 @@ components:
   name: title
   layout_properties: {slot: title}
 - type: ColumnPanel
-  properties: {role: '2050', tooltip: '', border: '', foreground: 'theme:White', visible: true,
+  properties: {role: '2050', tooltip: '', border: '', foreground: 'theme:Primary 700', visible: true,
     wrap_on: mobile, col_spacing: none, spacing_above: none, col_widths: '{"BITUCV":2,"PKRSVT":41}',
     spacing_below: small, background: 'theme:Gray 300'}
   name: main_area
@@ -62,7 +62,7 @@ components:
         event_bindings: {change: pathways_dropdown_change}
       - type: Button
         properties: {role: primary-color, align: center, tooltip: '', border: '',
-          enabled: true, foreground: '', visible: true, text: Reset Levers, font_size: null,
+          enabled: true, foreground: 'theme:White', visible: true, text: Reset Levers, font_size: null,
           font: '', spacing_above: small, icon_align: left, spacing_below: small,
           italic: false, background: 'theme:Primary 700', bold: false, underline: false,
           icon: ''}
