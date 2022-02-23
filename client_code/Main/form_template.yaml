@@ -91,7 +91,7 @@ components:
         name: col2_label
         layout_properties: {x: 250, y: 0, width: 140}
     - type: RepeatingPanel
-      properties: {role: null, tooltip: '', border: '', foreground: '', items: null,
+      properties: {role: null, tooltip: '', border: '', foreground: 'theme:White', items: null,
         visible: true, spacing_above: small, spacing_below: small, item_template: Main.LeverGroup,
         background: 'theme:Primary 700'}
       name: lever_group_panel
