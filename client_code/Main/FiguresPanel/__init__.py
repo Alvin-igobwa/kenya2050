@@ -41,7 +41,10 @@ class FiguresPanel(FiguresPanelTemplate):
         button = Button(text=name)
         button.role = "tab-button"
         button.tag = name
-        button.foreground = "theme:Primary 700"
+        if not sub_tab:
+            button.foreground = "theme:White"
+        else:
+            button.foreground = "theme:Primary 700"
         button.set_event_handler("click", self.tab_click)
         element.add_component(button)
         return button
