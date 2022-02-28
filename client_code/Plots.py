@@ -24,7 +24,7 @@ def _prepare_rows(data, x):
 
 
 def _partial_scatter(x, y, name, **kwargs):
-    return go.Scatter(x=x, y=y, name=name, showlegend=True, **kwargs)
+    return go.Scatter(x=x, y=y, name=name, showlegend=True, **kwargs,template = 'simple_white')
 
 
 def format_plot(plot, title):
@@ -65,14 +65,14 @@ def plot_stacked_area(plot, model_solution, output, title, axis_unit):
                     x, y, name, mode="lines", line=dict(width=4, color="black")
                 )
             
-            elif all(print(v <= 0) for v in y):
+            elif all(print(q > 0) for q in y):
                 data.append(
                     _partial_scatter(x, y, name=name, mode="lines", stackgroup="one")
                 )
 
-            else:
+            elif all(print(v <= 0) for v in y):
                 data.append(
-                    _partial_scatter(x, y, name=name, mode="lines", stackgroup="three")
+                    _partial_scatter(x, y, name=name, mode="lines", stackgroup="two")
                 )
         except TypeError:
             continue
