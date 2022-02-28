@@ -1,3 +1,4 @@
+from re import template
 import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
@@ -24,7 +25,7 @@ def _prepare_rows(data, x):
 
 
 def _partial_scatter(x, y, name, **kwargs):
-    return go.Scatter(x=x, y=y, name=name, showlegend=True, **kwargs)
+    return go.Scatter(x=x, y=y, name=name, showlegend=True, **kwargs, template= "simple_white")
 
 
 def format_plot(plot, title):
@@ -35,8 +36,8 @@ def format_plot(plot, title):
     layout.margin = dict(t=30, b=20, l=60, r=0)
     layout.hovermode = "closest"
     layout.title = dict(text=f"{title}", x=0.5)
-    layout.height = 300
-    layout.width = 700
+    layout.height = 200
+    layout.width = 200
 
 
 def plot_stacked_area(plot, model_solution, output, title, axis_unit):
@@ -66,7 +67,7 @@ def plot_stacked_area(plot, model_solution, output, title, axis_unit):
                 )
             elif all(print(v <= 0) for v in y):
                 data.append(
-                    _partial_scatter(x, y, name=name, mode="lines", stackgroup="two")
+                    _partial_scatter(x, y, name=name, mode="lines", stackgroup="one")
                 )
 
             else:
