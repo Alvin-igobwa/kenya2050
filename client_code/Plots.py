@@ -66,12 +66,12 @@ def plot_stacked_area(plot, model_solution, output, title, axis_unit):
                 )
             elif all(print(v <= 0) for v in y):
                 data.append(
-                    _partial_scatter(x, y, name=name, mode="lines", stackgroup="one")
+                    _partial_scatter(x, y, name=name, mode="lines", stackgroup="two",hoverinfo='x+y')
                 )
 
             else:
                 data.append(
-                    _partial_scatter(x, y, name=name, mode="lines", stackgroup="one")
+                    _partial_scatter(x, y, name=name, mode="lines", stackgroup="one",hoverinfo='x+y')
                 )
         except TypeError:
             continue
