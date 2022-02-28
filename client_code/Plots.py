@@ -35,6 +35,7 @@ def format_plot(plot, title):
     layout.margin = dict(t=30, b=20, l=60, r=0)
     layout.hovermode = "closest"
     layout.title = dict(text=f"{title}", x=0.5)
+    layout.yaxis = plot.layout( yaxis_range = (-1000,100000000))
     layout.height = 200
     layout.width = 200
 
