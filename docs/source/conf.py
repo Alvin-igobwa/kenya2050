@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.abspath(os.path.join("..", "..")))
 
 # -- Project information -----------------------------------------------------
 
-project = "Template2050Calculator"
+project = "KCERT2050"
 copyright = (
     f"{datetime.today().year}, Research Computing Service, Imperial College London"
 )
