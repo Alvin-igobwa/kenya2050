@@ -24,7 +24,7 @@ def _prepare_rows(data, x):
 
 
 def _partial_scatter(x, y, name, **kwargs):
-    return go.Scatter(x=x, y=y, name=name, showlegend=True, **kwargs,template = 'simple_white')
+    return go.Scatter(x=x, y=y, name=name, showlegend=True, **kwargs,template = 'plotly_dark')
 
 
 def format_plot(plot, title):
