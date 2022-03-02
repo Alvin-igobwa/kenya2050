@@ -29,7 +29,7 @@ def _partial_scatter(x, y, name, **kwargs):
     return go.Scatter(x=x, y=y, name=name, showlegend=True, **kwargs)
 
 
-def format_plot(plot, title, height,width):
+def format_plot(plot, title):
     """Apply standard formatting to plot. For Anvil `Plot` objects this must be
     called before the `data` attribute of the plot is set.
     """
@@ -53,7 +53,7 @@ def plot_stacked_area(plot, model_solution, output, title, axis_unit):
         title (str): The title of the figure
         axis_unit (str): Unit to add as y-axis title
     """
-    format_plot(plot, title,300,700)
+    format_plot(plot, title,height,width)
     plot.layout.yaxis.title = axis_unit
     model_output = model_solution[output]
     x = model_solution["x"]
@@ -99,7 +99,7 @@ def plot_line(plot, model_solution, output, title, axis_unit):
         title (str): The title of the figure
         axis_unit (str): Unit to add as y-axis title
     """
-    format_plot(plot, title,300,700)
+    format_plot(plot, title)
     plot.layout.yaxis.title = axis_unit
     model_output = model_solution[output]
     x = model_solution["x"]
@@ -119,7 +119,7 @@ def plot_sankey(plot, model_solution, output, title, valuesuffix):
         title (str): The title of the figure
         valuesuffice (str): Value passed as valuesuffix to Go.Sankey
     """
-    format_plot(plot, title,300,700)
+    format_plot(plot, title)
     data_index = model_solution["x"].index(init_vals["sankey_data_year"])
     model_output = model_solution[output]
     sources = []
@@ -175,7 +175,7 @@ def plot_map(plot, model_solution, outputs, title, _=None):
             [line[0], line[index]] for line in model_solution[output]
         )
     fig = anvil.server.call("map", data)
-    format_plot(fig, title,300,700)
+    format_plot(fig, title)
     plot.figure = fig
 
 
