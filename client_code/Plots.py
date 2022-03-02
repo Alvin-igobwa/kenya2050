@@ -3,7 +3,7 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.server
 import plotly.graph_objects as go
-import plotly.express as px
+
 
 from .Model import init_vals
 
