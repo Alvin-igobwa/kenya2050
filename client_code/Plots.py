@@ -37,8 +37,7 @@ def format_plot(plot, title):
     layout.margin = dict(t=30, b=20, l=60, r=0)
     layout.hovermode = "closest"
     layout.title = dict(text=f"{title}", x=0.5)
-    layout.height = 200
-    layout.width = 200
+    
 
 
 def plot_stacked_area(plot, model_solution, output, title, axis_unit):
@@ -56,6 +55,8 @@ def plot_stacked_area(plot, model_solution, output, title, axis_unit):
     plot.layout.yaxis.title = axis_unit
     model_output = model_solution[output]
     x = model_solution["x"]
+    plot.layout.height = 200
+    plot.layout.width = 200
 
     data = []
     total = None
