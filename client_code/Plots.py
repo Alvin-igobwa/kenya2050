@@ -3,7 +3,7 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.server
 import plotly.graph_objects as go
-import plotly.express as px
+
 
 
 from .Model import init_vals
@@ -26,7 +26,7 @@ def _prepare_rows(data, x):
 
 
 def _partial_scatter(x, y, name, **kwargs):
-    return go.Scatter(x=x, y=y, name=name, showlegend=True, **kwargs,template = 'plotly_dark')
+    return go.Scatter(x=x, y=y, name=name, showlegend=True, **kwargs)
 
 
 def format_plot(plot, title):
