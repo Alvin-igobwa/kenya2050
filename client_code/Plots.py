@@ -53,7 +53,7 @@ def plot_stacked_area(plot, model_solution, output, title, axis_unit):
         title (str): The title of the figure
         axis_unit (str): Unit to add as y-axis title
     """
-    format_plot(plot, title,height,width)
+    format_plot(plot, title)
     plot.layout.yaxis.title = axis_unit
     model_output = model_solution[output]
     x = model_solution["x"]
