@@ -34,7 +34,7 @@ def format_plot(plot, title):
     called before the `data` attribute of the plot is set.
     """
     layout = plot.layout
-    layout.height = 1000
+    layout.height = 100
     layout.width = 1000
     layout.margin = dict(t=30, b=20, l=0, r=0)
     layout.hovermode = "closest"
