@@ -3,6 +3,7 @@ import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.server
 import plotly.graph_objects as go
+from server_code.Model2050Server import layout
 
 
 
@@ -36,7 +37,7 @@ def format_plot(plot, title):
     layout = plot.layout
     layout.height = 300
     layout.width = 700
-    layout.margin = dict(t=30, b=20, l=0, r=0)
+    layout.margin = dict(t=30, b=20, l=30, r=0)
     layout.hovermode = "closest"
     layout.title = dict(text=f"{title}", x=0.5)
     
@@ -53,9 +54,11 @@ def plot_stacked_area(plot, model_solution, output, title, axis_unit):
         title (str): The title of the figure
         axis_unit (str): Unit to add as y-axis title
     """
-    format_plot(plot, title)
+    format_plot(plot, title,h,w)
     plot.layout.yaxis.title = axis_unit
     model_output = model_solution[output]
+    plot.layout.height = 200
+    plot.layout.width = 700
     x = model_solution["x"]
 
     data = []
@@ -103,6 +106,8 @@ def plot_line(plot, model_solution, output, title, axis_unit):
     plot.layout.yaxis.title = axis_unit
     model_output = model_solution[output]
     x = model_solution["x"]
+    plot.layout.height = 200
+    plot.layout.width = 700
     plot.data = [
         _partial_scatter(x, y, name, mode="lines+markers", marker=dict(symbol=num))
         for num, (name, y) in enumerate(_prepare_rows(model_output, x))
