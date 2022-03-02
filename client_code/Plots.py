@@ -36,7 +36,7 @@ def format_plot(plot, title):
     layout = plot.layout
     layout.height = 800
     layout.width = 900
-    layout.margin = dict(t=30, b=20, l=40, r=0)
+    layout.margin = dict(t=30, b=20, l=0, r=0)
     layout.hovermode = "closest"
     layout.title = dict(text=f"{title}", x=0.5)
     
