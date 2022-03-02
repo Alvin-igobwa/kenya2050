@@ -42,6 +42,7 @@ autodoc_mock_imports = [
     "client_code.Main.AmbitionLever.YearSelector._anvil_designer",
     "client_code.Main.AmbitionLever.Levers._anvil_designer",
     "plotly",
+    "plotly.express"
     "numpy",
     "i18n",
 ]
