@@ -6,10 +6,11 @@ container:
   data_bindings: []
 components:
 - type: FlowPanel
-  properties: {role: null, spacing: medium, align: left, tooltip: '', border: '',
-    foreground: '', visible: true, spacing_above: small, spacing_below: small, background: 'theme:White'}
+  properties: {role: null, spacing: tiny, align: left, tooltip: '', border: '', foreground: '',
+    visible: true, spacing_above: small, spacing_below: small, background: 'theme:White'}
   name: navbar_links
   layout_properties: {slot: nav-right, spacing_below: none}
+  data_bindings: []
 - type: Label
   properties: {role: headline, align: left, tooltip: '', border: '', foreground: 'theme:Primary
       700', visible: true, text: KCERT 2050 Carbon Calculator, font_size: 20, font: Arial,
