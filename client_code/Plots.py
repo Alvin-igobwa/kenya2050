@@ -69,7 +69,7 @@ def plot_stacked_area(plot, model_solution, output, title, axis_unit):
                     x, y, name, mode="lines", line=dict(width=4, color="black")
                 )
 
-            elif all(print(v <= 0) for v in y):
+            elif all(v <= 0 for v in y):
                 data.append(
                     _partial_scatter(x, y, name=name, mode="lines", stackgroup="two")
                 )
