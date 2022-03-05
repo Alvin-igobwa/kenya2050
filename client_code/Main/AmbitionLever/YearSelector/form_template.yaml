@@ -12,7 +12,7 @@ components:
     placeholder: ''
     border: ''
     enabled: true
-    foreground: ''
+    foreground: theme:White
     items: []
     visible: true
     font_size: 12
@@ -35,7 +35,7 @@ components:
     placeholder: ''
     border: ''
     enabled: true
-    foreground: ''
+    foreground: theme:White
     items: []
     visible: true
     font_size: 12
