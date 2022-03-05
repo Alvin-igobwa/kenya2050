@@ -35,7 +35,7 @@ def format_plot(plot, title):
     called before the `data` attribute of the plot is set.
     """
     layout = plot.layout
-    layout.margin = dict(t=30, b=20, l=30, r=0)
+    layout.margin = dict(t=30, b=20, l=50, r=0)
     layout.hovermode = "closest"
     layout.title = dict(text=f"{title}", x=0.5)
     
@@ -55,8 +55,6 @@ def plot_stacked_area(plot, model_solution, output, title, axis_unit):
     format_plot(plot, title)
     plot.layout.yaxis.title = axis_unit
     model_output = model_solution[output]
-    plot.layout.height = 200
-    plot.layout.width = 700
     x = model_solution["x"]
 
     data = []
