@@ -98,8 +98,7 @@ class FiguresPanel(FiguresPanelTemplate):
                 pass
 
     def _plot(self, graph_data):
-
-        plot = Plot(height=270,width=900)
+        plot = Plot(height=270      )
         self.figure_container.add_component(plot)
         title, output, plot_type, axis_unit = graph_data
         PLOTS_REGISTRY[plot_type.lower()](

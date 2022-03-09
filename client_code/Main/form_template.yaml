@@ -7,7 +7,7 @@ container:
 components:
 - type: FlowPanel
   properties: {role: null, spacing: tiny, align: left, tooltip: '', border: '', foreground: '',
-    visible: true, spacing_above: small, spacing_below: small, background: 'theme:White'}
+    visible: true, spacing_above: none, spacing_below: small, background: 'theme:White'}
   name: navbar_links
   layout_properties: {slot: nav-right, spacing_below: none}
   data_bindings: []
