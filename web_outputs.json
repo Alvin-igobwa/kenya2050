@@ -119,7 +119,7 @@
         ],
         "Title": [
             "GHG Emissions in 2050",
-            "UK Net Zero by ",
+            "Kenya Net Zero by ",
             "Level 4",
             "Extremely ambitious rate of change",
             "Bioenergy Imports",
@@ -517,7 +517,7 @@
     "output_lever_names_grouped": {
         "Transport": {
             "names": [
-                "UK Transport Demand",
+                "Kenya Transport Demand",
                 "International Aviation",
                 "Light Vehicles - Electric",
                 "Light Vehicles - Hydrogen",
@@ -532,14 +532,14 @@
             ],
             "tooltips": [
                 [
-                    "How far and by what methods passengers travel in the UK",
+                    "How far and by what methods passengers travel in the Kenya",
                     "By 2050 the average annual distance travelled per person is 9% further than in 2015. 81% of this is done by car.",
                     "By 2050 the average annual distance travelled per person is 3% less than in 2015. 72.5% of this is done by car.",
                     "By 2050 the average annual distance travelled per person is 10% less than in 2015. 63% of this is done by car.",
                     "By 2050 the average annual distance travelled per person is 25% less than in 2015. 48.5% of this is done by car."
                 ],
                 [
-                    "Distance flown abroad by passengers from the UK",
+                    "Distance flown abroad by passengers from the Kenya",
                     "By 2050 the average annual distance travelled per person internationally is 4% further than in 2015.",
                     "By 2050 the average annual distance travelled per person internationally is 7% less than in 2015.",
                     "By 2050 the average annual distance travelled per person internationally is 18% less than in 2015.",
@@ -921,7 +921,7 @@
                 ]
             ]
         },
-        "Land, Bioenergy & Waste": {
+        "Land use & biofuels": {
             "names": [
                 "Farming Yield & Efficiency",
                 "Forestry",
@@ -938,17 +938,17 @@
                 ],
                 [
                     "Land dedicated to planting forest (requires land to be freed up using the Farming Yield & Efficiency lever)",
-                    "8% of UK land area covered by forest by 2070 (compared to 7% in 2015).",
-                    "9% of UK land area covered by forest by 2070 (compared to 7% in 2015).",
-                    "10% of UK land area covered by forest by 2070 (compared to 7% in 2015).",
-                    "15% of UK land area covered by forest by 2070 (compared to 7% in 2015)."
+                    "8% of Kenya land area covered by forest by 2070 (compared to 7% in 2015).",
+                    "9% of Kenya land area covered by forest by 2070 (compared to 7% in 2015).",
+                    "10% of Kenya land area covered by forest by 2070 (compared to 7% in 2015).",
+                    "15% of Kenya land area covered by forest by 2070 (compared to 7% in 2015)."
                 ],
                 [
                     "Land dedicated to growing bio-crops (requires land to be freed up using the Farming Yield & Efficiency lever)",
-                    "0.6% of UK land area covered by biocrops by 2050 (compared to 0% in 2015) and 8-40% of agricultural wastes are collected for energy.",
-                    "1.1% of UK land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-60% of agricultural wastes are collected for energy.",
-                    "5.5% of UK land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-70% of agricultural wastes are collected for energy.",
-                    "8.8% of UK land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-100% of agricultural wastes are collected for energy."
+                    "0.6% of Kenya land area covered by biocrops by 2050 (compared to 0% in 2015) and 8-40% of agricultural wastes are collected for energy.",
+                    "1.1% of Kenya land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-60% of agricultural wastes are collected for energy.",
+                    "5.5% of Kenya land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-70% of agricultural wastes are collected for energy.",
+                    "8.8% of Kenya land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-100% of agricultural wastes are collected for energy."
                 ],
                 [
                     "Amount of waste produced, recycled and diverted to energy processes",

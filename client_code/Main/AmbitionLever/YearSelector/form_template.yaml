@@ -20,7 +20,7 @@ components:
     spacing_above: none
     spacing_below: none
     italic: false
-    background: ''
+    background: theme:Primary 700
     bold: false
     underline: false
     include_placeholder: false
@@ -35,7 +35,7 @@ components:
     placeholder: ''
     border: ''
     enabled: true
-    foreground: theme:White
+    foreground: theme:Primary 700
     items: []
     visible: true
     font_size: 12
@@ -43,7 +43,7 @@ components:
     spacing_above: none
     spacing_below: none
     italic: false
-    background: ''
+    background: theme:White
     bold: false
     underline: false
     include_placeholder: false

@@ -102,8 +102,6 @@ def plot_line(plot, model_solution, output, title, axis_unit):
     plot.layout.yaxis.title = axis_unit
     model_output = model_solution[output]
     x = model_solution["x"]
-    plot.layout.height = 200
-    plot.layout.width = 700
     plot.data = [
         _partial_scatter(x, y, name, mode="lines+markers", marker=dict(symbol=num))
         for num, (name, y) in enumerate(_prepare_rows(model_output, x))
