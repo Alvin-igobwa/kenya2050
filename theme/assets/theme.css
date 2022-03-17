@@ -479,7 +479,7 @@ a:hover, a:active {
   color: %color:Primary 500%;
 }
 .modal-footer .btn, .modal-footer .btn:focus, .modal-footer .btn:active {
-  box-shadow: none;
+  box-shadow: 10px 10px red;
   top: 0;
 }
 
@@ -550,15 +550,16 @@ body>div[data-notify="container"].alert-warning>span[data-notify="title"]{
   position: relative;
 }
 
+/*to change the color of the hovers its better to set bith*/
 .btn:hover, .btn:focus, .file-loader>label:hover {
-  background-color: rgba(153,153,153,0.2);
+  background-color: rgba(255, 255, 255, 0.0);
   background-image: none;
   outline: none;
   color: %color:Primary 500%;
 }
 
 .btn:active, .btn:active:focus {
-  background-color: rgba(153,153,153,0.4);
+  background-color: rgba(255, 255, 255, 0.0);
   background-image: none;
   outline: none;
   box-shadow: none;
@@ -629,7 +630,7 @@ body>div[data-notify="container"].alert-warning>span[data-notify="title"]{
 .anvil-panel-col-BITUCV {
   /* border: solid; */
   /* border-width: 0px 2px 0px 0px; */
-  background-color: #E0E0E0;
+  background-color: #ffffff;
 }
 
 .anvil-role-bottom-border {
