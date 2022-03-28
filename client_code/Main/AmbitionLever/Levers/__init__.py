@@ -34,8 +34,9 @@ class Levers(LeversTemplate):
 
         for i, level_button in enumerate(self.levels, 1):
             if i < self._level:
-                level_button.background = "theme:Gray 300"
-                level_button.foreground = "theme:Primary 700"
+            #changing the background of the buttons to be green when selected
+                level_button.background = "theme:Primary 700"
+                level_button.foreground = "theme:White"
             elif i == self._level:
                 level_button.background = "theme:Primary 700"
                 level_button.foreground = "theme:White"

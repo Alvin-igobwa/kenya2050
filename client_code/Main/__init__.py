@@ -34,6 +34,9 @@ class Main(MainTemplate):
             or input_values["end_years"] != init_vals["default_end_years"]
         ):
             self.set_expert_mode(True)
+        
+        ## Helped by Chris to develop the height space of the model to fit in the dimensions
+        self.height = self.call_js('calculatePlotSpace') ## call interface height
         self.update_graphs()
 
         self.title.text = translate("KCERT 2050 Carbon Calculator\nMinistry of Energy Kenya")

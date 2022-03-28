@@ -77,7 +77,7 @@ def test_layout():
                         (
                             "Top",
                             GraphInfo(
-                                "Cumulative UK Greenhouse Gas Emissions",
+                                "Cumulative Kenya Greenhouse Gas Emissions",
                                 "output_emissions_cumulative",
                                 "Line",
                                 "MtCO2e",

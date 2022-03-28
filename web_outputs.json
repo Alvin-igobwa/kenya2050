@@ -512,7 +512,7 @@
             3,
             3
         ]
-        
+    
     },
     "output_lever_names_grouped": {
         "Transport": {
@@ -532,18 +532,18 @@
             ],
             "tooltips": [
                 [
-                    "How far and by what methods passengers travel in the Kenya",
-                    "By 2050 the average annual distance travelled per person is 9% further than in 2015. 81% of this is done by car.",
-                    "By 2050 the average annual distance travelled per person is 3% less than in 2015. 72.5% of this is done by car.",
-                    "By 2050 the average annual distance travelled per person is 10% less than in 2015. 63% of this is done by car.",
-                    "By 2050 the average annual distance travelled per person is 25% less than in 2015. 48.5% of this is done by car."
+                    "How far and by what methods passengers travel in the UK",
+                    "By 2050 the average annual distance travelled per person is 36% less than in 2015. 81% of this is done by car.",
+                    "By 2050 the average annual distance travelled per person is 39% less than in 2015. 72.5% of this is done by car.",
+                    "By 2050 the average annual distance travelled per person is 42% less than in 2015. 63% of this is done by car.",
+                    "By 2050 the average annual distance travelled per person is 45% less than in 2015. 48.5% of this is done by car."
                 ],
                 [
-                    "Distance flown abroad by passengers from the Kenya",
-                    "By 2050 the average annual distance travelled per person internationally is 4% further than in 2015.",
-                    "By 2050 the average annual distance travelled per person internationally is 7% less than in 2015.",
-                    "By 2050 the average annual distance travelled per person internationally is 18% less than in 2015.",
-                    "By 2050 the average annual distance travelled per person internationally is 28% less than in 2015."
+                    "Distance flown abroad by passengers from the UK",
+                    "By 2050 the average annual distance travelled per person internationally is 231% further than in 2015.",
+                    "By 2050 the average annual distance travelled per person internationally is 220% further than in 2015.",
+                    "By 2050 the average annual distance travelled per person internationally is 176% further than in 2015.",
+                    "By 2050 the average annual distance travelled per person internationally is 154% further than in 2015."
                 ],
                 [
                     "Share of cars, vans and small trucks that are battery electric vehicles",
@@ -631,11 +631,11 @@
             ],
             "tooltips": [
                 [
-                    "Average temperature of homes, demand for hot water and penetration of air conditioning (AC)",
-                    "By 2050, the average house temperature is 0\u00b0C, 30% of homes have AC and domestic hot water demand is 30% more than in 2015.",
-                    "By 2050, the average house temperature is 0\u00b0C, 20% of homes have AC and domestic hot water demand is 20% more than in 2015.",
-                    "By 2050, the average house temperature is 0\u00b0C, 10% of homes have AC and domestic hot water demand is 10% more than in 2015.",
-                    "By 2050, the average house temperature is 0\u00b0C, 0% of homes have AC and domestic hot water demand is the same as in in 2015."
+                    "Demand for hot water in residential and non residential  buildings",
+                    "By 2050, domestic hot water demand is 30% more than in 2015. By 2050, for residential buildings, 23% more homes use wood to heat water than in 2015. the use of solar in homes is the same as in 2015. 23% less homes use electricty to heat water than in 2015. By 2050. For non residential buildings, 3% more buildings use wood to heat water than in 2015. 0.1% more buildings use solar to heat water than in 2015.  2.6% less buildings use electricty to heat water than in 2015. 0.4 % less buildings  use fossil fuel to heat water than in 2015.",
+                    "By 2050, domestic hot water demand is 20% more than in 2015. By 2050, for residential buildings, 13% more homes use wood to heat water than in 2015. 10% more homes use solar to heat water than in 2015.  23% less homes use electricty to heat water than in 2015. By 2050. For non residential buildings, 1.5% more buildings use wood to heat water than in 2015. 9.6% more buildings use solar to heat water than in 2015.  12.4% more buildings use electricty to heat water than in 2015. 23.4 % less buildings  use fossil fuel to heat water than in 2015.",
+                    "By 2050, domestic hot water demand is 10% more than in 2015. By 2050, for residential buildings, 3% more homes use wood to heat water than in 2015. 20% more homes use solar to heat water than in 2015.  23% less homes use electricty to heat water than in 2015. By 2050. For non residential buildings, 0.5% less than use wood to heat water than in 2015. 19.6% more buildings use solar to heat water than in 2015.  27.4% more buildings use electricty to heat water than in 2015. 46.4 % less buildings  use fossil fuel to heat water than in 2015.",
+                    "By 2050, domestic hot water demand is the same as in in 2015. By 2050, for residential buildings, 7% less than use wood to heat water than in 2015. 30% more homes use solar to heat water than in 2015.  23% less homes use electricty to heat water than in 2015. By 2050. For non residential buildings, 1.5% less than use wood to heat water than in 2015. 29.6% more buildings use solar to heat water than in 2015.  47.4% more buildings use electricty to heat water than in 2015. 75.4 % less buildings  use fossil fuel to heat water than in 2015."
                 ],
                 [
                     "Retrofit insulation deployment and new build thermal performance standards. ",
@@ -680,11 +680,11 @@
                     "Biomass CHP does not contribute to heat networks by 2050"
                 ],
                 [
-                    "Domestic Dwelling Cooking Share of various technologies",
-                    "Domestic Dwelling Cooking Share of various technologies",
-                    "Domestic Dwelling Cooking Share of various technologies",
-                    "Domestic Dwelling Cooking Share of various technologies",
-                    "Domestic Dwelling Cooking Share of various technologies"
+                    "Domestic Dwelling Cooking Share of various technologies. Kenya has 4 broad fuel categories used in cooking that is fossil fuel, wood and biogenic based fuels and electricty.",
+                    "By 2050, for residential buildings  there will be  5% less usage of biofuels in cooking than in 2015.  For fossil fuel use in cooking in residential buildings it will be , 55.08% less than in 2015. For wood fuel use in cooking in residential buildings it will be , 19.1% more than    in 2015. For electricty use in cooking  it will be , 0.57% less than in 2015.",
+                    "By 2050, for residential buildings  there will be  5% more  usage of biofuels in cooking than in 2015.  For fossil fuel use in cooking in residential buildings it will be , 55.2% less than in 2015. For wood fuel use in cooking in residential buildings it will be , 37.56% less than in 2015. For electricty use in cooking  it will be , 28.43% more than    in 2015.",
+                    "By 2050, for residential buildings  there will be  2% more  usage of biofuels in cooking than in 2015.  For fossil fuel use in cooking in residential buildings it will be , 55.32% less than in 2015. For wood fuel use in cooking in residential buildings it will be , 37.81% less than in 2015. For electricty use in cooking  it will be , 68.43% more than    in 2015.",
+                    "By 2050, for residential buildings  there will be  5% less usage of biofuels in cooking than in 2015.  For fossil fuel use in cooking in residential buildings it will be , 55.46% less than in 2015. For wood fuel use in cooking in residential buildings it will be , 37.9% less than in 2015. For electricty use in cooking  it will be , 98.43% more than    in 2015."
                 ],
                 [
                     "Energy intensity of and demand for lighting and appliances",
@@ -713,31 +713,31 @@
                 ],
                 [
                     "Share of industrial heat produced from electricity",
-                    "20% to 99900% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 39% in 2015).",
-                    "50% to 99900% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 39% in 2015).",
-                    "70% to 99900% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 39% in 2015).",
-                    "70% to 99900% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 39% in 2015)."
+                    "0% to 40% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 39% in 2015).",
+                    "25% to 50% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 39% in 2015).",
+                    "50% to 70% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 39% in 2015).",
+                    "70% to 100% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 39% in 2015)."
                 ],
                 [
                     "Share of industrial heat produced from biomass",
-                    "20% to 99900% of heat generated from biomass in industry sub-sectors by 2050 (compared to 0% to 0% in 2015).",
-                    "50% to 99900% of heat generated from biomass in industry sub-sectors by 2050 (compared to 0% to 0% in 2015).",
-                    "70% to 99900% of heat generated from biomass in industry sub-sectors by 2050 (compared to 0% to 0% in 2015).",
-                    "100% to 99900% of heat generated from biomass in industry sub-sectors by 2050 (compared to 0% to 0% in 2015)."
+                    "15% to 80% of heat generated from biomass in industry sub-sectors by 2050 (compared to 0% to 100% in 2015).",
+                    "35% to 50% of heat generated from biomass in industry sub-sectors by 2050 (compared to 0% to 100% in 2015).",
+                    "30% to 70% of heat generated from biomass in industry sub-sectors by 2050 (compared to 0% to 100% in 2015).",
+                    "20% to 100% of heat generated from biomass in industry sub-sectors by 2050 (compared to 0% to 100% in 2015)."
                 ],
                 [
                     "Share of industrial heat produced from gas (natural gas, biomethane or hydrogen)",
-                    "20% to 99900% of heat generated from gas in industry sub-sectors by 2050 (compared to 0% to 0% in 2015).",
-                    "50% to 99900% of heat generated from gas in industry sub-sectors by 2050 (compared to 0% to 0% in 2015).",
-                    "70% to 99900% of heat generated from gas in industry sub-sectors by 2050 (compared to 0% to 0% in 2015).",
-                    "100% to 99900% of heat generated from gas in industry sub-sectors by 2050 (compared to 0% to 0% in 2015)."
+                    "15% to 30% of heat generated from gas in industry sub-sectors by 2050 (compared to 0% to 0% in 2015).",
+                    "35% to 50% of heat generated from gas in industry sub-sectors by 2050 (compared to 0% to 0% in 2015).",
+                    "55% to 70% of heat generated from gas in industry sub-sectors by 2050 (compared to 0% to 0% in 2015).",
+                    "70% to 100% of heat generated from gas in industry sub-sectors by 2050 (compared to 0% to 0% in 2015)."
                 ],
                 [
                     "Share of polluting industrial combustion processes with Carbon Capture and Storage (CCS) applied",
                     "0% of processes have CCS applied across industrial sub-sectors by 2060 (compared to 0% in 2015).",
-                    "0% to 25% of processes have CCS applied across industrial sub-sectors by 2060 (compared to 0% in 2015).",
-                    "0% to 50% of processes have CCS applied across industrial sub-sectors by 2060 (compared to 0% in 2015).",
-                    "0% to 100% of processes have CCS applied across industrial sub-sectors by 2060 (compared to 0% in 2015)."
+                    "25% of processes have CCS applied across industrial sub-sectors by 2060 (compared to 0% in 2015).",
+                    "50% of processes have CCS applied across industrial sub-sectors by 2060 (compared to 0% in 2015).",
+                    "100% of processes have CCS applied across industrial sub-sectors by 2060 (compared to 0% in 2015)."
                 ]
             ]
         },
@@ -818,11 +818,11 @@
                 "Biomass with CCS",
                 "Hydo Electric Power",
                 "Geothermal",
-                "Thermal",
+                "Thermal - MiniGrid",
                 "Natural Gas",
                 "Power Imports",
                 "Nuclear",
-                "Offshore & Onshore Wind",
+                "Onshore Wind",
                 "Solar",
                 "Wave & Tidal",
                 "Gas with CCS"
@@ -830,17 +830,17 @@
             "tooltips": [
                 [
                     "Electricity stored between seasons to better balance supply and demand",
-                    "No electricity stored between seasons (none stored in 2015).",
-                    "15 TWh of electricity stored each year by 2050 (none stored in 2015).",
-                    "30 TWh of electricity stored each year by 2050 (none stored in 2015).",
-                    "60 TWh of electricity stored each year by 2050 (none stored in 2015)."
+                    "0.0860711841204654 TWh of electricity stored each year by 2050 (none stored in 2015).",
+                    "0.107574720511065 TWh of electricity stored each year by 2050 (none stored in 2015).",
+                    "0.161305042208533 TWh of electricity stored each year by 2050 (none stored in 2015).",
+                    "0.215092402464066 TWh of electricity stored each year by 2050 (none stored in 2015)."
                 ],
                 [
                     "Short term demand shifting potential through interconnection, demand side response (DSR), vehicle-to-grid (V2G) charging and batteries",
-                    "6.5 GW of interconnectors and 5 GW of demand shifting capacity by 2050 (0 GW and 0 GW in 2015).",
-                    "9 GW of interconnectors and 25 GW of demand shifting capacity by 2050 (0 GW and 0 GW in 2015).",
-                    "14.5 GW of interconnectors and 50 GW of demand shifting capacity by 2050 (0 GW and 0 GW in 2015).",
-                    "20 GW of interconnectors and 100 GW of demand shifting capacity by 2050 (0 GW and 0 GW in 2015)."
+                    "0 GW of interconnectors and 0 GW of demand shifting capacity by 2050 (0 GW and 0 GW in 2015).",
+                    "0 GW of interconnectors and 0 GW of demand shifting capacity by 2050 (0 GW and 0 GW in 2015).",
+                    "0 GW of interconnectors and 0 GW of demand shifting capacity by 2050 (0 GW and 0 GW in 2015).",
+                    "0 GW of interconnectors and 0 GW of demand shifting capacity by 2050 (0 GW and 0 GW in 2015)."
                 ],
                 [
                     "Electricity generation from the combustion of biomass with CCS (generating negative emissions credits under accounting rules)",
@@ -850,60 +850,60 @@
                     "0 GW capacity by 2050 (the same as 2015)."
                 ],
                 [
-                    "Electricity generation from the combustion of biomass with CCS (generating negative emissions credits under accounting rules)",
-                    "0.698 GW capacity by 2050 (0 GW in 2015) capable of generating up to 6 TWh per year.",
-                    "1.048 GW capacity by 2050 (0 GW in 2015) capable of generating up to 8 TWh per year.",
-                    "1.397 GW capacity by 2050 (0 GW in 2015) capable of generating up to 11 TWh per year.",
-                    "2.095 GW capacity by 2050 (0 GW in 2015) capable of generating up to 17 TWh per year."
+                    "Electricity generation from dams and HEP power plants",
+                    "0.698 GW capacity by 2050 (0 GW in 2015) capable of generating up to 4 TWh per year.",
+                    "1.048 GW capacity by 2050 (0 GW in 2015) capable of generating up to 5 TWh per year.",
+                    "1.397 GW capacity by 2050 (0 GW in 2015) capable of generating up to 7 TWh per year.",
+                    "2.095 GW capacity by 2050 (0 GW in 2015) capable of generating up to 11 TWh per year."
                 ],
                 [
-                    "Electricity generation from the combustion of biomass with CCS (generating negative emissions credits under accounting rules)",
-                    "1.251 GW capacity by 2050 (0.3255 GW in 2015) capable of generating up to 5 TWh per year.",
-                    "1.564 GW capacity by 2050 (0.3255 GW in 2015) capable of generating up to 6 TWh per year.",
-                    "1.876 GW capacity by 2050 (0.3255 GW in 2015) capable of generating up to 7 TWh per year.",
-                    "2.189 GW capacity by 2050 (0.3255 GW in 2015) capable of generating up to 9 TWh per year."
+                    "Electricity generation from Geothermal power plants",
+                    "0 GW capacity by 2050 (the same as 2015).",
+                    "4.067 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "4.437 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "4.807 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year."
                 ],
                 [
-                    "Electricity generation from the combustion of biomass with CCS (generating negative emissions credits under accounting rules)",
-                    "0 GW capacity by 2050 (the same as 2015).",
-                    "0 GW capacity by 2050 (the same as 2015).",
-                    "0 GW capacity by 2050 (the same as 2015).",
-                    "0 GW capacity by 2050 (the same as 2015)."
+                    "Electricity generation from the combustion of Kerosene and HFO in minigrids",
+                    "0.35 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "0.306 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "0.262 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "0.157 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year."
                 ],
                 [
-                    "Electricity generation from the combustion of biomass with CCS (generating negative emissions credits under accounting rules)",
-                    "1.571 GW capacity by 2050 (0.0503 GW in 2015) capable of generating up to 3 TWh per year.",
-                    "3.143 GW capacity by 2050 (0.0503 GW in 2015) capable of generating up to 6 TWh per year.",
-                    "4.714 GW capacity by 2050 (0.0503 GW in 2015) capable of generating up to 8 TWh per year.",
-                    "6.285 GW capacity by 2050 (0.0503 GW in 2015) capable of generating up to 11 TWh per year."
+                    "Electricity generation from the combustion of natural gas",
+                    "0.393 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "0.786 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "1.179 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "1.571 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year."
                 ],
                 [
-                    "Electricity generation from the combustion of biomass with CCS (generating negative emissions credits under accounting rules)",
-                    "0 GW capacity by 2050 (the same as 2015).",
-                    "0 GW capacity by 2050 (the same as 2015).",
-                    "0 GW capacity by 2050 (the same as 2015).",
-                    "0 GW capacity by 2050 (the same as 2015)."
+                    "Electricity generation from importation of power from neighbouring nations",
+                    "1.508 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "3.018 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "4.526 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "6.034 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year."
                 ],
                 [
                     "Electricity generation using nuclear power",
-                    "0.698 GW capacity by 2050 (0.7x the 0 GW capacity in 2015) capable of generating up to 6 TWh per year. Equivalent to 0.2 3 GW plants..",
-                    "1.048 GW capacity by 2050 (1x the 0 GW capacity in 2015) capable of generating up to 8 TWh per year. Equivalent to 0.3 3 GW plants..",
-                    "1.397 GW capacity by 2050 (1.4x the 0 GW capacity in 2015) capable of generating up to 11 TWh per year. Equivalent to 0.5 3 GW plants..",
-                    "2.095 GW capacity by 2050 (2.1x the 0 GW capacity in 2015) capable of generating up to 17 TWh per year. Equivalent to 0.7 3 GW plants.."
+                    "0.698 GW capacity by 2050 (0.7x the 0 GW capacity in 2015) capable of generating up to 4 TWh per year. Equivalent to 0.2 3 GW plants..",
+                    "1.048 GW capacity by 2050 (1x the 0 GW capacity in 2015) capable of generating up to 5 TWh per year. Equivalent to 0.3 3 GW plants..",
+                    "1.397 GW capacity by 2050 (1.4x the 0 GW capacity in 2015) capable of generating up to 7 TWh per year. Equivalent to 0.5 3 GW plants..",
+                    "2.095 GW capacity by 2050 (2.1x the 0 GW capacity in 2015) capable of generating up to 11 TWh per year. Equivalent to 0.7 3 GW plants.."
                 ],
                 [
-                    "Electricity generation using onshore and offshore wind",
+                    "Electricity generation using offshore wind",
                     "1.3 GW capacity by 2050, 1.3 GW onshore and 0 GW offshore (3.8x the 0.3 GW capacity in 2015) capable of generating up to 5 TWh per year.",
                     "1.6 GW capacity by 2050, 1.6 GW onshore and 0 GW offshore (4.8x the 0.3 GW capacity in 2015) capable of generating up to 6 TWh per year.",
-                    "1.9 GW capacity by 2050, 1.9 GW onshore and 0 GW offshore (5.8x the 0.3 GW capacity in 2015) capable of generating up to 7 TWh per year.",
+                    "1.9 GW capacity by 2050, 1.9 GW onshore and 0 GW offshore (5.8x the 0.3 GW capacity in 2015) capable of generating up to 8 TWh per year.",
                     "2.2 GW capacity by 2050, 2.2 GW onshore and 0 GW offshore (6.7x the 0.3 GW capacity in 2015) capable of generating up to 9 TWh per year."
                 ],
                 [
                     "Electricity generation using solar power",
-                    "1.571 GW capacity by 2050 (31.2x the 0.1 GW capacity in 2015) capable of generating up to 3 TWh per year.",
-                    "3.143 GW capacity by 2050 (62.5x the 0.1 GW capacity in 2015) capable of generating up to 6 TWh per year.",
-                    "4.714 GW capacity by 2050 (93.7x the 0.1 GW capacity in 2015) capable of generating up to 8 TWh per year.",
-                    "6.285 GW capacity by 2050 (125x the 0.1 GW capacity in 2015) capable of generating up to 11 TWh per year."
+                    "1.669 GW capacity by 2050 (33.2x the 0.1 GW capacity in 2015) capable of generating up to 3 TWh per year.",
+                    "3.274 GW capacity by 2050 (65.1x the 0.1 GW capacity in 2015) capable of generating up to 5 TWh per year.",
+                    "4.878 GW capacity by 2050 (97x the 0.1 GW capacity in 2015) capable of generating up to 8 TWh per year.",
+                    "6.613 GW capacity by 2050 (131.5x the 0.1 GW capacity in 2015) capable of generating up to 10 TWh per year."
                 ],
                 [
                     "Electricity generation using wave and tidal power",
@@ -921,7 +921,7 @@
                 ]
             ]
         },
-        "Land use & biofuels": {
+        "Land, Bioenergy & Waste": {
             "names": [
                 "Farming Yield & Efficiency",
                 "Forestry",
@@ -932,23 +932,23 @@
                 [
                     "Reductions in the number of livestock, crop yield improvements and the emissions intensity of agricultural processes",
                     "In 2050, emissions intensity is 3-0% lower, land yield is unchanged, there are 3% more cattle, 10% more poultry and 2% more other livestock compared to 2015.",
-                    "In 2050, emissions intensity is 0-12% lower, land yield is 26-23% higher, there are 0% more cattle, 2% fewer poultry and 0% more other livestock compared to 2015.",
-                    "In 2050, emissions intensity is 6-25% lower, land yield is 37-50% higher, there are 6% fewer cattle, 20% more poultry and 4% fewer other livestock compared to 2015.",
-                    "In 2050, emissions intensity is 25-51% lower, land yield is 66-213% higher, there are 25% fewer cattle, 51% more poultry and 25% fewer other livestock compared to 2015."
+                    "In 2050, emissions intensity is 0-12% lower, land yield is 16-23% higher, there are 0% more cattle, 2% fewer poultry and 0% more other livestock compared to 2015.",
+                    "In 2050, emissions intensity is 6-25% lower, land yield is 40-50% higher, there are 6% fewer cattle, 20% more poultry and 4% fewer other livestock compared to 2015.",
+                    "In 2050, emissions intensity is 25-51% lower, land yield is 100-213% higher, there are 25% fewer cattle, 51% more poultry and 25% fewer other livestock compared to 2015."
                 ],
                 [
                     "Land dedicated to planting forest (requires land to be freed up using the Farming Yield & Efficiency lever)",
                     "8% of Kenya land area covered by forest by 2070 (compared to 7% in 2015).",
                     "9% of Kenya land area covered by forest by 2070 (compared to 7% in 2015).",
-                    "10% of Kenya land area covered by forest by 2070 (compared to 7% in 2015).",
-                    "15% of Kenya land area covered by forest by 2070 (compared to 7% in 2015)."
+                    "9% of Kenya land area covered by forest by 2070 (compared to 7% in 2015).",
+                    "11% of Kenya land area covered by forest by 2070 (compared to 7% in 2015)."
                 ],
                 [
                     "Land dedicated to growing bio-crops (requires land to be freed up using the Farming Yield & Efficiency lever)",
                     "0.6% of Kenya land area covered by biocrops by 2050 (compared to 0% in 2015) and 8-40% of agricultural wastes are collected for energy.",
                     "1.1% of Kenya land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-60% of agricultural wastes are collected for energy.",
-                    "5.5% of Kenya land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-70% of agricultural wastes are collected for energy.",
-                    "8.8% of Kenya land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-100% of agricultural wastes are collected for energy."
+                    "2.7% of Kenya land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-70% of agricultural wastes are collected for energy.",
+                    "3.4% of Kenya land area covered by biocrops by 2050 (compared to 0% in 2015) and 18-100% of agricultural wastes are collected for energy."
                 ],
                 [
                     "Amount of waste produced, recycled and diverted to energy processes",

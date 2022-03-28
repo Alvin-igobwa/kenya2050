@@ -96,7 +96,7 @@ def translate(locale, text):
 
 @anvil.server.callable
 def map(data):
-    """Generate the figure for the map plot. Currently centred over the UK.
+    """Generate the figure for the map plot. Currently centred over the Kenya.
 
     Callable from the client side of the web app.
 

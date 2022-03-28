@@ -4,9 +4,9 @@ container:
     wrap_on: mobile, col_spacing: medium, spacing_above: small, col_widths: '{"FIPETE":5,"KRYHHW":55,"BJPINV":5,"WXUHPL":55}',
     spacing_below: small, background: 'theme:Primary 700'}
 components:
-- type: Button
+- type: Button # changing button foreground to be white
   properties: {role: arrow-button, align: center, tooltip: '', border: '', enabled: true,
-    foreground: '', visible: true, text: '', font_size: null, font: '', spacing_above: none,
+    foreground: 'theme:White', visible: true, text: '', font_size: null, font: '', spacing_above: none,
     icon_align: left, spacing_below: none, italic: false, background: '', bold: false,
     underline: false, icon: 'fa:angle-right'}
   name: arrow_button

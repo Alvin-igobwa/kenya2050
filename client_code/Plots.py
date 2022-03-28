@@ -32,9 +32,12 @@ def _partial_scatter(x, y, name, **kwargs):
 
 def format_plot(plot, title):
     """Apply standard formatting to plot. For Anvil `Plot` objects this must be
-    called before the `data` attribute of the plot is set.
+    called before the `data` attribute of the plot is set. To make changes on the 
+    layout of the plot use the plotly.layout function as found here
+    https://anvil.works/docs/api/plotly.graph_objs.layout#plotly.graph_objs.layout.Mapbox
     """
     layout = plot.layout
+    layout.legend = dict(font = "PT Sans Narrow")
     layout.margin = dict(t=30, b=20, l=50, r=0)
     layout.hovermode = "closest"
     layout.title = dict(text=f"{title}", x=0.5)

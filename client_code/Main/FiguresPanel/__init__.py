@@ -2,8 +2,8 @@ import anvil.tables as tables
 import anvil.tables.query as q
 from anvil.tables import app_tables
 import anvil.server
-from anvil import Button, Label, Plot
-
+from anvil import Button, Label, Plot, get_open_form
+# adding open_form helps in the setting of the height
 from ...Model import init_vals
 from ...Plots import PLOTS_REGISTRY
 from ._anvil_designer import FiguresPanelTemplate
@@ -87,18 +87,21 @@ class FiguresPanel(FiguresPanelTemplate):
         self.figure_container.clear()
         layout = init_vals["layout"]
         tab, sub_tab = self.selected_tab
+        form = get_open_form()
         try:
-            self._plot(layout[tab.tag][sub_tab.tag]["Top"])
-            self._plot(layout[tab.tag][sub_tab.tag]["Bottom"])
+            self._plot(layout[tab.tag][sub_tab.tag]["Top"],form.height/2)
+            self._plot(layout[tab.tag][sub_tab.tag]["Bottom"],form.height/2)
         except KeyError:
             try:
-                self._plot(layout[tab.tag][sub_tab.tag]["Page"])
+                self._plot(layout[tab.tag][sub_tab.tag]["Page"],form.height)
                 self.figure_container.add_component(Plot())
             except KeyError:
                 pass
 
-    def _plot(self, graph_data):
-        plot = Plot(height=270)
+    def _plot(self, graph_data,height):
+        ## for removing the modebar, add the necessary changes here. Most configurations of the plots can be made here
+        config = {'displayModeBar': False}
+        plot = Plot(height=height,config=config)
         self.figure_container.add_component(plot)
         title, output, plot_type, axis_unit = graph_data
         PLOTS_REGISTRY[plot_type.lower()](
