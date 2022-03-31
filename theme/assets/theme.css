@@ -19,9 +19,9 @@
 
 .anvil-role-lever-panel {
   /*the height set here is meant to be standard for all screens it still needs to be worked on*/
-  height: 69.52vh; /*Chris will help with this again with the js*/
+  height: 70vh; /*Chris will help with this again with the js*/
   overflow-y:auto;
-  scrollbar-color:#047839 #047839;/*to change the color of the scroll feature*/
+  scrollbar-color:#008000 grey;/*to change the color of the scroll feature*/
 }
 
 .plot-container{
