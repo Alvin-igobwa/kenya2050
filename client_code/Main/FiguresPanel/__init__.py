@@ -75,10 +75,11 @@ class FiguresPanel(FiguresPanelTemplate):
             tooltip = data[1][1]
 
             label = Label()
+            ## hard code the variables
             if active:
-                label.icon = "fa:check-square"
+                label.icon = "fa:square-4"
             else:
-                label.icon = "fa:square-o"
+                label.icon = "fa:bullseye"
             self.warnings_panel.add_component(label)
             label.text = name
             label.tooltip = tooltip

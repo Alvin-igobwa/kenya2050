@@ -64,6 +64,13 @@
 
   }
 
+  window.onload = function() {
+    /*This is for the right panel side where the warnings are placed*/
+    var div = document.querySelector('.anvil-panel-col-OROLTQ');
+    div.style.maxHeight = (window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight) + "px" - div.offsetTop-170;
+
+  }
+
 
   $('.sidebar-toggle, .nav-shield').off('click').on('click', function() {
     var ln = $('.structure > .nav-holder > .left-nav');

@@ -58,8 +58,8 @@ components:
         layout_properties: {}
     - type: ColumnPanel
       properties: {role: null, tooltip: '', border: '', foreground: 'theme:White',
-        visible: true, wrap_on: mobile, col_spacing: none, spacing_above: none, col_widths: '{"OXNENJ":30,"BHLNYW":30}',
-        spacing_below: none, background: 'theme:Gray 300'}
+        visible: true, wrap_on: mobile, col_spacing: none, spacing_above: small, col_widths: '{"OXNENJ":30,"BHLNYW":30}',
+        spacing_below: small, background: 'theme:Gray 300'}
       name: pathways_card
       layout_properties: {grid_position: 'QSNDWO,JOEWHC'}
       components:
@@ -97,7 +97,7 @@ components:
         event_bindings: {click: reset_button_click, show: reset_button_show}
     - type: XYPanel
       properties: {role: bottom-border, width: null, align: center, height: '32',
-        tooltip: '', border: '', foreground: '', visible: true, spacing_above: none,
+        tooltip: '', border: '', foreground: '', visible: true, spacing_above: small,
         spacing_below: none, background: 'theme:Gray 300'}
       name: settings_title_card
       layout_properties: {}

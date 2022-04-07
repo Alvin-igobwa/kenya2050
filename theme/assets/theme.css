@@ -21,7 +21,12 @@
   /*the height set here is meant to be standard for all screens it still needs to be worked on*/
   height: 70vh; /*Chris will help with this again with the js*/
   overflow-y:auto;
-  scrollbar-color:#008000 grey;/*to change the color of the scroll feature*/
+  scrollbar-color:#008000 #008000;/*to change the color of the scroll feature*/
+}
+
+.anvil-role-warnings-panel {
+  /*the height set here is meant to be standard for all screens it still needs to be worked on for the warnings panel side*/
+  height: 80vh; /*Chris will help with this again with the js*/
 }
 
 .plot-container{
