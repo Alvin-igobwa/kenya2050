@@ -77,11 +77,12 @@ class FiguresPanel(FiguresPanelTemplate):
             label = Label()
             ## hard code the variables
             if active:
-                label.icon = "fa:square-4"
+                label.icon = "fa:fire  "
+                label.foreground = "red"
             else:
                 label.icon = "fa:bullseye"
             self.warnings_panel.add_component(label)
-            label.text = name
+            #label.text = name
             label.tooltip = tooltip
 
     def build_graphs(self):
@@ -90,11 +91,15 @@ class FiguresPanel(FiguresPanelTemplate):
         tab, sub_tab = self.selected_tab
         form = get_open_form()
         try:
+            #These were added in order to let the heights be a half of the remaining height
             self._plot(layout[tab.tag][sub_tab.tag]["Top"],form.height/2)
             self._plot(layout[tab.tag][sub_tab.tag]["Bottom"],form.height/2)
+            
+            
         except KeyError:
             try:
                 self._plot(layout[tab.tag][sub_tab.tag]["Page"],form.height)
+                self._plot(layout[tab.tag][sub_tab.tag]["Page"],form.width)
                 self.figure_container.add_component(Plot())
             except KeyError:
                 pass

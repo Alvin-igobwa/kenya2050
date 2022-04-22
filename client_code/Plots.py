@@ -37,10 +37,10 @@ def format_plot(plot, title):
     https://anvil.works/docs/api/plotly.graph_objs.layout#plotly.graph_objs.layout.Mapbox
     """
     layout = plot.layout
-    layout.legend = dict(font = "PT Sans Narrow")
     layout.margin = dict(t=30, b=20, l=50, r=0)
     layout.hovermode = "closest"
     layout.title = dict(text=f"{title}", x=0.5)
+    layout.title_font = dict(title_font_color = 'Green', title_font_family = 'Times New Roman')
     
 
 

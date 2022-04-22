@@ -21,12 +21,13 @@
   /*the height set here is meant to be standard for all screens it still needs to be worked on*/
   height: 70vh; /*Chris will help with this again with the js*/
   overflow-y:auto;
-  scrollbar-color:#008000 #008000;/*to change the color of the scroll feature*/
+  scrollbar-color:#228B22 #228B22;/*to change the color of the scroll feature*/
 }
 
 .anvil-role-warnings-panel {
   /*the height set here is meant to be standard for all screens it still needs to be worked on for the warnings panel side*/
   height: 80vh; /*Chris will help with this again with the js*/
+  width: 76vw;
 }
 
 .plot-container{
@@ -101,7 +102,7 @@ a>.anvil-component-icon.right_edge-icon,
 /* Typography */
 body {
   font-family: Roboto, Noto, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 23px;
   line-height: 1.4286;
   background-color: #fafafa;
 }

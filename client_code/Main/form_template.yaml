@@ -50,21 +50,16 @@ components:
         properties: {role: null, align: left, tooltip: '', border: '', foreground: 'theme:Primary
             700', visible: true, text: 'KCERT 2050 Carbon Calculator
 
-            Ministry of Energy Kenya', font_size: 19, font: '', spacing_above: small,
+            Ministry of Energy Kenya', font_size: 21, font: 'sans-serif', spacing_above: small,
           icon_align: left, spacing_below: small, italic: false, background: '', bold: true,
           underline: false, icon: ''}
         name: label_1
         layout_properties: {}
     - type: ColumnPanel
       properties: {role: null, tooltip: '', border: '', foreground: 'theme:White',
-<<<<<<< HEAD
-        visible: true, wrap_on: mobile, col_spacing: none, spacing_above: small, col_widths: '{"OXNENJ":30,"BHLNYW":30}',
-        spacing_below: small, background: 'theme:Gray 300'}
-=======
-        visible: true, wrap_on: mobile, col_spacing: medium, spacing_above: none,
-        col_widths: '{"OXNENJ":30,"BHLNYW":30}', spacing_below: none, background: 'theme:Gray
+        visible: true, wrap_on: mobile, col_spacing: medium, spacing_above: small,
+        col_widths: '{"OXNENJ":30,"BHLNYW":30}', spacing_below: small, background: 'theme:Gray
           300'}
->>>>>>> 1fa11f69da816883c47355bd007aab785d73871b
       name: pathways_card
       layout_properties: {grid_position: 'QSNDWO,JOEWHC'}
       components:
@@ -122,7 +117,7 @@ components:
         name: col2_label
         layout_properties: {x: 250, y: 0, width: 140}
     - type: RepeatingPanel
-      properties: {role: null, tooltip: '', border: '', foreground: 'theme:White',
+      properties: {role: 'lever-panel', tooltip: '', border: '', foreground: 'theme:White',font_size: 10,
         items: null, visible: true, spacing_above: none, spacing_below: small, item_template: Main.LeverGroup,
         background: 'theme:Primary 700'}
       name: lever_group_panel
@@ -132,7 +127,7 @@ components:
     - type: Button
       properties: {role: primary-color, align: center, tooltip: '', border: '', enabled: true,
         foreground: '', visible: true, text: Switch to 2100 Mode, font_size: null,
-        font: '', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
+        font: 'sans-serif', spacing_above: small, icon_align: left, spacing_below: small, italic: false,
         background: 'theme:Primary 700', bold: false, underline: false, icon: ''}
       name: expert_toggle
       layout_properties: {grid_position: 'LRIAJT,HLZOEC'}
