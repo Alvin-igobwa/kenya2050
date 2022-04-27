@@ -28,6 +28,7 @@
     <div class="content">
       <div anvil-slot-repeat="default" class="anvil-measure-this"></div>
       <div class="placeholder drop-here" anvil-if-slot-empty="default" anvil-drop-slot="default">Drop a ColumnPanel here.</div>
+      
     </div>
   </div>
   <div class="nav-shield"></div>
@@ -35,6 +36,14 @@
 <div anvil-drop-default anvil-drop-redirect=".placeholder" anvil-drop-container=".anvil-container"></div>
  
 <script>
+  /*$("span.button-text:contains(Biomethane Gas Grid Share')").css("color","red");*/
+
+  $(function(){
+    $("span:contains('Biomethane Gas Grid Share')").click(function(){
+       window.open("https://docs.google.com/document/d/1Q0hIuEmuFKpChBI6OPUQIX0NDz7A5qVZ"); 
+    });
+});
+
   function hideSidebar() {
     var ln = $('.structure > .nav-holder > .left-nav');
     ln.animate({left: -ln.outerWidth()}, function() {
@@ -86,4 +95,5 @@
       $('.nav-shield').trigger('click');
     }
   });
+  
 </script>

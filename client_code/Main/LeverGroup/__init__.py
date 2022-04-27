@@ -18,7 +18,7 @@ class LeverGroup(LeverGroupTemplate):
         self.lever_panel.items = [
             dict(
                 name=name,
-                tooltips=tooltips,
+                #tooltips=tooltips,
                 value=value,
                 event_handler=self.lever_clicked,
                 start_year=start_year,
