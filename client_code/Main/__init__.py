@@ -227,3 +227,8 @@ class Main(MainTemplate):
       """This method is called when the Button is shown on the screen"""
       pass
 
+    def button_1_click(self, **event_args):
+      """This method is called when the button is clicked"""
+      pass
+
+
