@@ -218,7 +218,7 @@ class Main(MainTemplate):
     def refresh_headers(self, xs):
         """Update x positions of labels acting as column headers"""
         col1_label, col2_label = self.settings_title_card.get_components()
-        col1_label.remove_from_parent()
+        col1_label.remove_from_parent() 
         col2_label.remove_from_parent()
         self.settings_title_card.add_component(col1_label, x=xs[0], y=0)
         self.settings_title_card.add_component(col2_label, x=xs[1], y=0)

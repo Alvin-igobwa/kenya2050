@@ -187,7 +187,7 @@ class Main(MainTemplate):
             )
             self.main_area.role = "2100"
         else:
-            self.expert_toggle.text = "Switch to 2100 Mode"
+            self.expert_toggle.text = "switch to 2100 mode"
             self.expert_label.remove_from_parent()
             self.refresh_headers(self.label_xs_2050)
             self.set_defaults(years_only=True)
@@ -208,7 +208,7 @@ class Main(MainTemplate):
                 group.group_lever.show_years()
                 group.group_lever.years.start_year.visible = False
                 group.group_lever.years.end_year.visible = False
-
+ 
     def refresh_headers(self, xs):
         """Update x positions of labels acting as column headers"""
         col1_label, col2_label = self.settings_title_card.get_components()

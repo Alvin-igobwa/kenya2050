@@ -142,8 +142,9 @@ def plot_sankey(plot, model_solution, output, title, valuesuffix):
             node=dict(
                 pad=15,
                 thickness=15,
-                line=dict(color="black", width=0.5),
+                line=dict(color="black", width=0.0),
                 label=nodes,
+            
             ),
             link=dict(
                 source=sources,
@@ -151,6 +152,7 @@ def plot_sankey(plot, model_solution, output, title, valuesuffix):
                 value=values,
             ),
         )
+        
     ]
 
 

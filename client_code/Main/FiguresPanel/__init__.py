@@ -64,7 +64,7 @@ class FiguresPanel(FiguresPanelTemplate):
         self.build_graphs()
         self.build_warnings()
 
-    def build_warnings(self):
+    def build_warnings(self,**event_args):
         self.warnings_panel.clear()
         warnings = init_vals["layout"]["Warnings"]["Not required"]
 
@@ -75,15 +75,47 @@ class FiguresPanel(FiguresPanelTemplate):
             tooltip = data[1][1]
 
             label = Label()
-            ## hard code the variables
-            if active:
-                label.icon = "fa:fire  "
-                label.foreground = "red"
-            else:
-                label.icon = "fa:bullseye"
+            if output == 'output_warning_l4chosen':
+                if active:
+                    label.icon = "fa:dice-four"
+                    label.foreground = "rgb(204,0,0)"
+                else:
+                    label.icon = 'fa:dice-four'
+                    label.foreground = "rgb(0,147,69)"
+            if output == 'output_warning_exceedl4_rate':
+                if active:
+                    label.icon = "fa:rocket"
+                    label.foreground = "rgb(204,0,0)"
+                else:
+                    label.icon = 'fa:rocket'
+                    label.foreground = "rgb(0,147,69)"
+            if output == 'output_warning_bio_imports':
+                if active:
+                    label.icon = "fa:seedling"
+                    label.foreground = "rgb(204,0,0)"
+                else:
+                    label.icon = 'fa:seedling'
+                    label.foreground = "rgb(0,147,69)"
+            if output == 'output_warning_land':
+                if active:
+                    label.icon = "fa:tree"
+                    label.foreground = "rgb(204,0,0)"
+                else:
+                    label.icon = 'fa:tree'
+                    label.foreground = "rgb(0,147,69)"
+            if output == 'output_warning_elec_peak':
+                if active:
+                    label.icon = "fa:bolt"
+                    label.foreground = "rgb(204,0,0)"
+                else:
+                    label.icon = 'fa:bolt'
+                    label.foreground = "rgb(0,147,69)"
+            
+                
             self.warnings_panel.add_component(label)
             #label.text = name
             label.tooltip = tooltip
+            
 
     def build_graphs(self):
         self.figure_container.clear()
@@ -99,7 +131,7 @@ class FiguresPanel(FiguresPanelTemplate):
         except KeyError:
             try:
                 self._plot(layout[tab.tag][sub_tab.tag]["Page"],form.height)
-                self._plot(layout[tab.tag][sub_tab.tag]["Page"],form.width)
+                #self._plot(layout[tab.tag][sub_tab.tag]["Page"],form.width)
                 self.figure_container.add_component(Plot())
             except KeyError:
                 pass
