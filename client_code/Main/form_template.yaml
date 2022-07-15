@@ -57,7 +57,7 @@ components:
         layout_properties: {}
       - type: Button
         properties: {role: null, align: center, tooltip: '', border: '', enabled: true,
-          foreground: 'theme:Primary 700', visible: true, text: '', font_size: 30,
+          foreground: 'theme:Primary 700', visible: true, text: '', font_size: 20,
           font: '', spacing_above: none, icon_align: right, spacing_below: none, italic: false,
           background: '', bold: false, underline: false, icon: 'fa:info-circle'}
         name: button_1
