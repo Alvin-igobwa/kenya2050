@@ -76,7 +76,7 @@ scrollbar-color:#009345 #009345;/*to change the color of the scroll feature*/
 
 .anvil-role-lever-panel {
   /*the height set here is meant to be standard for all screens it still needs to be worked on*/
-  height:67vh; /*Chris will help with this again with the js*/
+  height:70vh; /*Chris will help with this again with the js*/
   overflow-y:auto;
   scrollbar-color:#009345 #009345;/*to change the color of the scroll feature*/
 }

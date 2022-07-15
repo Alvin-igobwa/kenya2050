@@ -267,6 +267,13 @@
     });
   });
 
+  // This is for adding the manual to the webtool
+  $(function(){  
+  $('i.anvil-component-icon.fa.right.fa-info-circle.right-icon').click(function(){
+      window.open('https://drive.google.com/file/d/1oLPiuThOylCm5MVbKMrvgHo0gWauknuR/view'); 
+    });
+  });
+
   function hideSidebar() {
     var ln = $('.structure > .nav-holder > .left-nav');
     ln.animate({left: -ln.outerWidth()}, function() {
