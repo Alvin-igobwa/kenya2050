@@ -475,48 +475,8 @@
             3,
             3,
             3
-        ],
-        "All Level 4": [
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4,
-            4
         ]
+        
     },
     "output_lever_names_grouped": {
         "Transport": {
@@ -536,14 +496,14 @@
             ],
             "tooltips": [
                 [
-                    "How far and by what methods passengers travel in Kenya",
-                    "By 2050 the average annual distance travelled per person is 10% less than in 2015. 45% of this is done by car.",
+                    "How far and by what methods passengers travel in the UK",
+                    "By 2050 the average annual distance travelled per person is 10% less than in 2015. 38% of this is done by car.",
                     "By 2050 the average annual distance travelled per person is 22% less than in 2015. 35% of this is done by car.",
                     "By 2050 the average annual distance travelled per person is 32% less than in 2015. 30% of this is done by car.",
-                    "By 2050 the average annual distance travelled per person is 41% less than in 2015. 23% of this is done by car."
+                    "By 2050 the average annual distance travelled per person is 41% less than in 2015. 25% of this is done by car."
                 ],
                 [
-                    "Distance flown abroad by passengers from Kenya",
+                    "Distance flown abroad by passengers from the UK",
                     "By 2050 the average annual distance travelled per person internationally is 121% further than in 2015.",
                     "By 2050 the average annual distance travelled per person internationally is 99% further than in 2015.",
                     "By 2050 the average annual distance travelled per person internationally is 79% further than in 2015.",
@@ -669,10 +629,10 @@
                 ],
                 [
                     "Share of industrial heat produced from electricity",
-                    "0% to 100% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 99% in 2015).",
-                    "25% to 100% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 99% in 2015).",
-                    "50% to 100% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 99% in 2015).",
-                    "70% to 100% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 99% in 2015)."
+                    "20% to 40% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 99% in 2015).",
+                    "50% to 50% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 99% in 2015).",
+                    "70% to 70% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 99% in 2015).",
+                    "80% to 100% of heat generated from electricity in industry sub-sectors by 2050 (compared to 0% to 99% in 2015)."
                 ],
                 [
                     "Share of industrial heat produced from biomass",
@@ -766,10 +726,10 @@
             "tooltips": [
                 [
                     "Electricity stored between seasons to better balance supply and demand",
-                    "0.0860711841204654 TWh of electricity stored each year by 2050 (none stored in 2015).",
-                    "0.107574720511065 TWh of electricity stored each year by 2050 (none stored in 2015).",
-                    "0.161305042208533 TWh of electricity stored each year by 2050 (none stored in 2015).",
-                    "0.215092402464066 TWh of electricity stored each year by 2050 (none stored in 2015)."
+                    "No electricity stored between seasons (none stored in 2015).",
+                    "0.00551 TWh of electricity stored each year by 2050 (none stored in 2015).",
+                    "0.00826 TWh of electricity stored each year by 2050 (none stored in 2015).",
+                    "0.01101 TWh of electricity stored each year by 2050 (none stored in 2015)."
                 ],
                 [
                     "Electricity generation from dams and HEP power plants",
@@ -780,10 +740,10 @@
                 ],
                 [
                     "Electricity generation from Geothermal power plants",
-                    "0 GW capacity by 2050 (0.77 GW in 2015) capable of generating up to 28 TWh per year.",
-                    "4.067 GW capacity by 2050 (0.77 GW in 2015) capable of generating up to 30 TWh per year.",
-                    "4.437 GW capacity by 2050 (0.77 GW in 2015) capable of generating up to 33 TWh per year.",
-                    "4.807 GW capacity by 2050 (0.77 GW in 2015) capable of generating up to 36 TWh per year."
+                    "0 GW capacity by 2050 (0.77 GW in 2015) capable of generating up to 26 TWh per year.",
+                    "3.697 GW capacity by 2050 (0.77 GW in 2015) capable of generating up to 28 TWh per year.",
+                    "3.919 GW capacity by 2050 (0.77 GW in 2015) capable of generating up to 29 TWh per year.",
+                    "4.141 GW capacity by 2050 (0.77 GW in 2015) capable of generating up to 31 TWh per year."
                 ],
                 [
                     "Electricity generation from the combustion of Kerosene and HFO in minigrids",
@@ -801,10 +761,10 @@
                 ],
                 [
                     "Electricity generation from importation of power from neighbouring nations",
-                    "1.508 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
-                    "3.018 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
-                    "4.526 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
-                    "6.034 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year."
+                    "1.154 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "2.012 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "3.017 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year.",
+                    "4.023 GW capacity by 2050 ( GW in 2015) capable of generating up to 0 TWh per year."
                 ],
                 [
                     "Electricity generation using nuclear power",
@@ -815,17 +775,17 @@
                 ],
                 [
                     "Electricity generation using offshore wind",
+                    "3.2 GW capacity by 2050, 3.2 GW onshore and 0 GW offshore (10.1x the 0.3 GW capacity in 2015) capable of generating up to 13 TWh per year.",
                     "3.6 GW capacity by 2050, 3.6 GW onshore and 0 GW offshore (11.2x the 0.3 GW capacity in 2015) capable of generating up to 15 TWh per year.",
-                    "4.5 GW capacity by 2050, 4.5 GW onshore and 0 GW offshore (14x the 0.3 GW capacity in 2015) capable of generating up to 19 TWh per year.",
-                    "5.4 GW capacity by 2050, 5.4 GW onshore and 0 GW offshore (16.8x the 0.3 GW capacity in 2015) capable of generating up to 22 TWh per year.",
-                    "6.3 GW capacity by 2050, 6.3 GW onshore and 0 GW offshore (19.6x the 0.3 GW capacity in 2015) capable of generating up to 26 TWh per year."
+                    "4.1 GW capacity by 2050, 4.1 GW onshore and 0 GW offshore (12.9x the 0.3 GW capacity in 2015) capable of generating up to 17 TWh per year.",
+                    "4.5 GW capacity by 2050, 4.5 GW onshore and 0 GW offshore (14x the 0.3 GW capacity in 2015) capable of generating up to 19 TWh per year."
                 ],
                 [
                     "Electricity generation using solar power",
                     "1.669 GW capacity by 2050 (33.4x the 0.1 GW capacity in 2015) capable of generating up to 3 TWh per year.",
-                    "3.274 GW capacity by 2050 (65.5x the 0.1 GW capacity in 2015) capable of generating up to 6 TWh per year.",
-                    "4.878 GW capacity by 2050 (97.6x the 0.1 GW capacity in 2015) capable of generating up to 9 TWh per year.",
-                    "6.613 GW capacity by 2050 (132.3x the 0.1 GW capacity in 2015) capable of generating up to 12 TWh per year."
+                    "2.645 GW capacity by 2050 (52.9x the 0.1 GW capacity in 2015) capable of generating up to 5 TWh per year.",
+                    "3.307 GW capacity by 2050 (66.1x the 0.1 GW capacity in 2015) capable of generating up to 6 TWh per year.",
+                    "4.414 GW capacity by 2050 (88.3x the 0.1 GW capacity in 2015) capable of generating up to 8 TWh per year."
                 ]
             ]
         },
