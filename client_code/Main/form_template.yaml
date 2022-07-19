@@ -50,14 +50,14 @@ components:
         properties: {role: null, align: left, tooltip: '', border: '', foreground: 'theme:Primary
             700', visible: true, text: 'KCERT 2050 Carbon Calculator
 
-            Ministry of Energy Kenya', font_size: 21, font: sans-serif, spacing_above: small,
+            Ministry of Energy Kenya', font_size: 20, font: sans-serif, spacing_above: small,
           icon_align: left, spacing_below: none, italic: false, background: '', bold: true,
           underline: false, icon: ''}
         name: label_1
         layout_properties: {}
       - type: Button
         properties: {role: null, align: center, tooltip: 'KCERT 2050 Manual', border: '', enabled: true,
-          foreground: 'theme:Green 1', visible: true, text: '', font_size: 23,
+          foreground: 'theme:Green 1', visible: true, text: '', font_size: 21,
           font: '', spacing_above: none, icon_align: right, spacing_below: none, italic: false,
           background: '', bold: false, underline: false, icon: 'fa:info-circle'}
         name: button_1
